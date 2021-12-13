@@ -25,7 +25,6 @@ let op;
 
 
 $(function() {
-    'use strict';
   
     function Todo(elem) {
       this.eList = elem.find('.todo__list');
