@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+	<input id="num1" />
+
+	<div id="operator_btns">
+        <button id="plus" onclick="op='+'">+</button>
+        <button id="minus" onclick="op='-'">-</button>
+        <button id="times" onclick="op='*'">x</button>
+        <button id="divide" onclick="op='/'">:</button>
+	</div>
+
+	<input id="num2" />
+	<br>
+
+	<button onclick="func()">Посчитать</button>
+
+    <p id="result"></p>
+
+
+<div id="list" class="todo">
+    <h2 class="todo__caption">Список дел</h2>
+
+    <ul class="todo__list">
+    </ul>
+    
+    <div class="todo__controls">
+        <input type="text" class="todo__text" />
+        <button disabled="disabled" class="todo__add">Добавить</button>
+    </div>
+</div>
+
+
+</body>
+</html>
